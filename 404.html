@@ -17,15 +17,15 @@ body{
 }
 
 a{
-
+  transition: all .1s ease;
     text-decoration: none;
     color: #f8f8f8;
 }
 
 a:hover{
-  transition: all .1s ease;
+  
   transform: scale(1.2);
-    color: #03bb85;
+    color: #f8f8f8;
 }
 
 header{
@@ -61,14 +61,13 @@ header .navb-logo img{
     height: 66px;
 }
 
-header .navb-items{
-    transition: all .1s ease;
+header .modal-line{
+
     display: flex;
     align-items: center;
     justify-content: flex-end;
     letter-spacing: 3px;
 }
-
 
 header .items{
     text-align: center;
@@ -83,10 +82,8 @@ header .items{
     cursor: pointer;
 }
 
-header .navb-items:hover{
-
-    border-bottom: 3px solid #03BB85;
-    border-top: 3px solid #03BB85;
+header .items:hover{
+    transform: scale(1.2);
 }
 /* modal */
 
@@ -187,11 +184,6 @@ header .navb-items:hover{
     padding: 0 0 3px 3px;
 }
 
-.wrapper {
-  width: 100%;
-  margin: 0 auto;
-}
-
 section h2 {
   position: relative;
   padding: 4rem;
@@ -240,8 +232,8 @@ section h2::after {
   align-items: center;
 }
 .hero-text img{
-    width: 400px;
-    height: 400px;
+    width: 200px;
+    height: 200px;
 }
 
 
